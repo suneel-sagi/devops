@@ -8,3 +8,10 @@ The command for creating and editing cron jobs is the same and simple. And whatâ
 
 $ crontab -e
 
+Cron Syntax
+Just as it is with any language, working with cron is a lot easier when you understand its syntax and there are 2 formats you should know:
+
+A B C D E USERNAME /path/to/command arg1 arg2
+OR
+A B C D E USERNAME /root/backup.sh
+

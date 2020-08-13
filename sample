@@ -1,11 +1,16 @@
-Cron is one of Linux’s most useful tools and a developer favorite because it allows you to run automated commands at specific periods, dates, and intervals using both general-purpose and task-specific scripts. Given that description, you can imagine how system admins use it to automate backup tasks, directory cleaning, notifications, etc.
+Cron is one of Linux’s most useful tools and a developer favorite because it allows you to run automated commands at specific periods, dates, 
+and intervals using both general-purpose and task-specific scripts. Given that description, you can imagine how system admins use it to automate backup tasks, 
+directory cleaning, notifications, etc.
 
-Cron jobs run in the background and constantly check the /etc/crontab file, and the /etc/cron.*/ and /var/spool/cron/ directories. The cron files are not supposed to be edited directly and each user has a unique crontab.
+Cron jobs run in the background and constantly check the /etc/crontab file, and the /etc/cron.*/ and /var/spool/cron/ directories. 
+The cron files are not supposed to be edited directly and each user has a unique crontab.
+How then are you supposed to create and edit cron jobs? With crontab commands. The crontab is the method you use to create, edit, install, uninstall, 
+and list cron jobs.
+The command for creating and editing cron jobs is the same and simple. 
+And what’s even cooler is that you don’t need to restart cron after creating new files or editing existing ones.
 
-How then are you supposed to create and edit cron jobs? With crontab commands. The crontab is the method you use to create, edit, install, uninstall, and list cron jobs.
-
-The command for creating and editing cron jobs is the same and simple. And what’s even cooler is that you don’t need to restart cron after creating new files or editing existing ones.
-
+cd /root/etc/crontab
+find / -name *cron*
 $ crontab -e
 
 Cron Syntax

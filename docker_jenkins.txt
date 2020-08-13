@@ -1,0 +1,35 @@
+ FROM java:8-jdk-alpine
+  COPY ./build/libs/functionhall-service-0.0.1-SNAPSHOT.jar /usr/app/
+WORKDIR /usr/app
+EXPOSE 8057
+ENTRYPOINT ["java", "-jar", "functionhall-service-0.0.1-SNAPSHOT.jar"]
+: jenkins install chayandii
+: docker server lo
+: job folder vuntadi kada
+: akada
+: i mean
+: cd /var/lib/jenkins/workspace/jobname
+: lo
+: vi Dockerfile
+: command ichi
+: eee script copy chaysi save chayandi
+: and
+: docker build -t imagename .
+: ivandii
+: next
+: docker run -it -p 8057:8057 imagename //bin/bash
+: ivandii
+: run avudii
+: mana service jar
+: imagename dagara  mana customise name ivandi
+
+: chayputha
+:jenkins works place lo na
+: akada iyna paravalaydhu
+: but docker build -t matram
+: jobname lo nay
+: ivalli
+
+
+
+: https://youtu.be/PlPzZbiBbOk
